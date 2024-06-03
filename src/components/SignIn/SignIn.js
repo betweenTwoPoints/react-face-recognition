@@ -19,7 +19,7 @@ class SignIn extends Component {
   };
 
   onSubmitSignIn = () => {
-    fetch("https://react-face-recognition-zlae.onrender.com/signin", {
+    fetch("https://react-face-recognition.onrender.com/signin", {
       method: "post",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
